@@ -1,0 +1,82 @@
+header {
+    border-bottom: 2px solid darkgrey;
+}
+
+.text {
+    background-color: skyblue;
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+}
+
+.text2 {
+    padding-top: 30px;
+    padding-right: 0px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.nav-item1 {
+    border-right: 1px solid grey;
+    padding-right: 20px;
+}
+
+.nav-item2 {
+    border-right: 1px solid grey;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-item {
+    padding-left: 20px;
+}
+
+section {
+    background-image: url(background.jpg);
+    height: 100vh;
+}
+
+.container2 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.container3 {
+    background-color: white;
+    margin-top: 30px;
+}
+
+h1 {
+    color: skyblue;
+    padding-top: 25px;
+}
+
+hr {
+    border-top: 1px solid darkgrey;
+}
+
+.adjust2 {
+    padding-bottom: 25px;
+}
+
+img {
+    width: 230px;
+    height: 350px;
+    background-color: white;
+}
+
+.container5 {
+    background-color: darkgrey;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    border-top: 8px solid skyblue;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
