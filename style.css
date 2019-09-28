@@ -1,4 +1,4 @@
-header {
+.adjust4 {
     border-bottom: 2px solid darkgrey;
 }
 
@@ -66,6 +66,26 @@ img {
     width: 230px;
     height: 350px;
     background-color: white;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    text-align: center;
+    background-color: skyblue;
+    color: grey;
+    font-size: 20px;
+    position: relative;
+    top: 200px;
+}
+
+.project {
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 200px;
 }
 
 .container5 {
