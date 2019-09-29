@@ -8,5 +8,5 @@ https://atdiep.github.io/responsive-portfolio/
 
 # Resources
 
-https://www.w3schools.com/
-https://getbootstrap.com/
+* https://www.w3schools.com/
+* https://getbootstrap.com/
