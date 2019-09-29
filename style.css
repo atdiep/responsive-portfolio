@@ -1,5 +1,10 @@
+body {
+    background-image: url(background.jpg);
+}
+
 .adjust4 {
     border-bottom: 2px solid darkgrey;
+    background-color: white;
 }
 
 .text {
@@ -10,6 +15,8 @@
     font-weight: bold;
     padding: 20px;
     text-align: center;
+    width: 100%;
+    white-space: nowrap;
 }
 
 .text2 {
@@ -34,11 +41,6 @@
     padding-left: 20px;
 }
 
-section {
-    background-image: url(background.jpg);
-    height: 100vh;
-}
-
 .container2 {
     padding-right: 0px;
     padding-left: 0px;
@@ -55,17 +57,16 @@ h1 {
 }
 
 hr {
-    border-top: 1px solid darkgrey;
+    border-top: 2px solid darkgrey;
 }
 
 .adjust2 {
     padding-bottom: 25px;
 }
 
-img {
+.adjust3 {
     width: 230px;
     height: 350px;
-    background-color: white;
 }
 
 .card {
@@ -88,6 +89,14 @@ img {
     width: 200px;
 }
 
+.card-img-overlay {
+    padding: 0px;
+}
+
+.adjust {
+    padding-bottom: 150px;
+}
+
 .container5 {
     background-color: darkgrey;
     color: white;
@@ -99,4 +108,30 @@ img {
     width: 100%;
     position: fixed;
     bottom: 0;
+}
+
+@media screen and (max-width: 640px) {
+    .adjust6 {
+        justify-content: center !important;
+        padding-top: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .text2 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .adjust2 {
+        padding-bottom: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    p {
+        margin-left: 20px;
+    }
 }
