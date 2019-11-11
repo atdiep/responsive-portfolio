@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Arnold Diep</title>
 </head>
+
 <body>
     <header class="adjust4">
         <div class="container">
@@ -42,49 +45,76 @@
                     <h1>Portfolio</h1>
                     <hr>
                     <div class="row">
-                        <div class="col-sm-6">
-                            <div class="card project">
-                                <img src="Hangman.jpg" class="card-img" alt="Hangman">
-                                <div class="card-img-overlay">
-                                    <h5 class="card-title">Hangman</h5>
+                        <div class="card-deck">
+                            <div class="card">
+                                <img src="./assets/images/password.png" class="card-img-top" alt="Password Generator">
+                                <div class="card-body">
+                                    <h5 class="card-title">Password Generator</h5>
+                                    <p class="card-text">The app will generate a random password based on user-selected
+                                        criteria. It will run in the browser and was built using HTML, CSS, and
+                                        JavaScript.</p>
+                                    <a href="https://github.com/atdiep/Password-Generator" class="card-link">GitHub</a>
+                                    <a href="https://atdiep.github.io/Password-Generator/" class="card-link">Deployed
+                                        Page</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./assets/images/quiz.png" class="card-img-top" alt="Code Quiz">
+                                <div class="card-body">
+                                    <h5 class="card-title">Code Quiz</h5>
+                                    <p class="card-text">The theme of the quiz is Pokemon, the quiz consists of 5
+                                        questions so give it your best!. This application was built using HTML, CSS
+                                        (Bootstrap) and Javascript.</p>
+                                    <a href="https://github.com/atdiep/Code-Quiz" class="card-link">GitHub</a>
+                                    <a href="https://atdiep.github.io/Code-Quiz/" class="card-link">Deployed Page</a>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="./assets/images/planner.png" class="card-img-top" alt="Day Planner">
+                                <div class="card-body">
+                                    <h5 class="card-title">Day Planner</h5>
+                                    <p class="card-text">This is a simple calendar application that allows the user to
+                                        save events for each hour of the day. Each hour will change in colors depends on
+                                        the current hour of the day to signify the events are in the past, the present,
+                                        or the future. This app will run in the browser and was created using HTML, CSS,
+                                        JavaScript, and jQuery.</p>
+                                    <a href="https://github.com/atdiep/Day-Planner" class="card-link">GitHub</a>
+                                    <a href="https://atdiep.github.io/Day-Planner/" class="card-link">Deployed Page</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-sm-6">
-                            <div class="card project">
-                                <img src="RPS.jpeg" class="card-img" alt="Rock Paper Scissors">
-                                <div class="card-img-overlay">
-                                    <h5 class="card-title">Rock Paper Scissors</h5>
+                        <div class="card-deck">
+                            <div class="card">
+                                <img src="./assets/images/weather.png" class="card-img-top" alt="Weather Dashboard">
+                                <div class="card-body">
+                                    <h5 class="card-title">Weather DashBoard</h5>
+                                    <p class="card-text">This is a weather application that retrieve weather data cities
+                                        through the OpenWeather API. It includes a 5-Day
+                                        Forecast for the next five days. This app runs in the browswer and feature
+                                        dynamically updated HTML and CSS, JavaScript powered by jQuery.</p>
+                                    <a href="https://github.com/atdiep/Weather-Dashboard" class="card-link">GitHub</a>
+                                    <a href="https://atdiep.github.io/Weather-Dashboard/" class="card-link">Deployed
+                                        Page</a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="card project">
-                                <img src="RPG.jpg" class="card-img" alt="RPG Game">
-                                <div class="card-img-overlay">
-                                    <h5 class="card-title">RPG Game</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="card project">
-                                <img src="Trivia.jpg" class="card-img" alt="Trivia Game">
-                                <div class="card-img-overlay">
-                                    <h5 class="card-title">Trivia Game</h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="card project">
-                                <img src="info.png" class="card-img" alt="Info Widget">
-                                <div class="card-img-overlay">
-                                    <h5 class="card-title">Info Widget</h5>
+                            <div class="card">
+                                <img src="./assets/images/hosting.png" class="card-img-top" alt="Hosting">
+                                <div class="card-body">
+                                    <h5 class="card-title">Hosting</h5>
+                                    <p class="card-text">This application has two sections, each with a Search and Clear
+                                        button where a user can type in ingredients for food or drinks and it will
+                                        return the recipe. This app runs in the browswer and feature
+                                        dynamically updated HTML and CSS, JavaScript powered by jQuery.</p>
+                                    <a href="https://github.com/atdiep/Hosting-App" class="card-link">GitHub</a>
+                                    <a href="https://atdiep.github.io/Hosting-App/" class="card-link">Deployed
+                                        Page</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
 
@@ -96,4 +126,5 @@
         </div>
     </footer>
 </body>
+
 </html>

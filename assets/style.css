@@ -1,5 +1,5 @@
 body {
-    background-image: url(background.jpg);
+    background-image: url(./images/background.jpg);
 }
 
 .adjust4 {
@@ -65,36 +65,20 @@ hr {
 }
 
 .adjust3 {
-    width: 230px;
-    height: 350px;
-}
-
-.card {
-    margin-bottom: 20px;
-}
-
-.card-title {
-    text-align: center;
-    background-color: skyblue;
-    color: grey;
-    font-size: 20px;
-    position: relative;
-    top: 200px;
-}
-
-.project {
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 250px;
     width: 200px;
-}
-
-.card-img-overlay {
-    padding: 0px;
+    height: 350px;
 }
 
 .adjust {
     padding-bottom: 150px;
+}
+
+.card-deck {
+    margin-bottom: 10px;
+}
+
+.card-text {
+    margin: 0px 0px 10px 0px;
 }
 
 .container5 {
@@ -112,7 +96,6 @@ hr {
 
 @media screen and (max-width: 640px) {
     .adjust6 {
-        justify-content: center !important;
         padding-top: 0px !important;
         padding-left: 0px !important;
     }
@@ -122,11 +105,22 @@ hr {
         padding-bottom: 15px;
         padding-right: 0px;
     }
+
+    .adjust2 {
+        padding-bottom: 150px;
+    }
 }
 
 @media screen and (max-width: 640px) {
-    .adjust2 {
-        padding-bottom: 150px;
+    .text2 {
+        margin-top: 15px !important;
+        justify-content: right !important;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .adjust6 {
+        justify-content: center !important;
     }
 }
 
